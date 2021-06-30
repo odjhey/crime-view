@@ -99,19 +99,35 @@ function App() {
         <div>
           <p className="s-text">About Us</p>
           <ul>
-            <li>Team</li>
-            <li>Company</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
+            <li>
+              <a href="#home">Team</a>
+            </li>
+            <li>
+              <a href="#home">Company</a>
+            </li>
+            <li>
+              <a href="#home">Contact Us</a>
+            </li>
+            <li>
+              <a href="#home">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#home">Terms & Conditions</a>
+            </li>
           </ul>
         </div>
         <div>
           <p className="s-text">Services</p>
           <ul>
-            <li>Pricing</li>
-            <li>Courses</li>
-            <li>Educators</li>
+            <li>
+              <a href="#home">Pricing</a>
+            </li>
+            <li>
+              <a href="#home">Courses</a>
+            </li>
+            <li>
+              <a href="#home">Educators</a>
+            </li>
           </ul>
         </div>
       </section>

@@ -75,6 +75,10 @@ body {
   text-decoration: none;
   color: white;
 }
+.nav li a:hover {
+  text-decoration: none;
+  color: red;
+}
 
 .hero button {
   max-width: fit-content;
@@ -167,6 +171,24 @@ body {
 
 .footer ul {
   list-style-type: none;
+  overflow: hidden;
+}
+
+.footer p {
+  margin-bottom: 1em;
+}
+
+.footer ul li {
+  margin-top: 1rem;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer ul li a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .footer div {
