@@ -115,6 +115,11 @@ function App() {
           </ul>
         </div>
       </section>
+      <section className="copyright">
+        <p className="light-fcolor xs-text">
+          Crimview 2020 © All rights reserved
+        </p>
+      </section>
     </div>
   );
 }

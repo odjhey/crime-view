@@ -38,6 +38,10 @@ body {
   font-size: 1.5rem;
 }
 
+.xs-text {
+  font-size: 0.8rem;
+}
+
 .center-text {
   text-align: center;
 }
@@ -167,4 +171,10 @@ body {
 
 .footer div {
   padding-right: 10em;
+}
+
+.copyright {
+  background-color: #15172b;
+  padding: 1em;
+  padding-left: 10em;
 }
