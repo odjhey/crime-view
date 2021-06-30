@@ -1,0 +1,170 @@
+*,
+html,
+body {
+  font-family: Poppins, Sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.light-fcolor {
+  color: white;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+.xl-text {
+  font-size: 3rem;
+}
+
+.xxl-text {
+  font-size: 3.5rem;
+}
+
+.l-text {
+  font-size: 2.5rem;
+}
+
+.m-text {
+  font-size: 2rem;
+}
+
+.s-text {
+  font-size: 1.5rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2f3250;
+  height: 20rem;
+}
+
+.nav {
+  background-color: #2f3299;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.nav ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+  padding: 1em;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero button {
+  max-width: fit-content;
+}
+
+.hero p {
+  /* line-height: 0; */
+  margin: 1rem;
+}
+
+.mejo-center {
+  /* border: 2px red solid; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.carousel-container {
+  display: flex;
+}
+
+.explore-learn {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.explore-learn p {
+  margin: 1rem;
+}
+
+.educators-container {
+  margin-bottom: 5em;
+}
+
+.educators {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.educators-title {
+  margin-bottom: 2rem;
+}
+.educators-title p {
+  margin: 0.5em;
+}
+
+.educators p {
+  margin: 0.5rem;
+}
+
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.motto {
+  padding: 10em;
+  padding-top: 4em;
+  padding-bottom: 6em;
+  background-color: #909090;
+}
+.motto p {
+  margin: 1rem;
+}
+
+.motto .l-text {
+  font-size: 48.83px;
+  font-weight: 200;
+  line-height: 1.1em;
+}
+
+.partnerships {
+  padding: 5em;
+}
+
+.partnerships ul {
+  list-style-type: none;
+}
+.partnerships p {
+  margin: 1rem;
+}
+
+.footer {
+  background-color: #2f3250;
+  padding: 4em;
+  padding-left: 10em;
+  display: flex;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer div {
+  padding-right: 10em;
+}
