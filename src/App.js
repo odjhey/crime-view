@@ -1,4 +1,5 @@
 import "./App.css";
+import ExploreLearn from "./ExploreLearn";
 
 function App() {
   return (
@@ -34,26 +35,9 @@ function App() {
         <p className="m-text">Mastery Within Your Reach.</p>
         <button>Start Now</button>
       </section>
-      <section className="explore-learn">
-        <div className="mejo-center">
-          <p className="l-text">
-            <span className="bold-text">Explore</span> and Learn
-          </p>
-          <p>
-            Choose the subject that you want to learn and really get serious
-            about.
-          </p>
-        </div>
-        <div className="carousel-container">
-          <div> {"<"} </div>
-          <div className="carousel mejo-center">
-            {carouselItems.map((c, i) => {
-              return <CarouselItem key={i} title={c.title} body={c.body} />;
-            })}
-          </div>
-          <div>{">"}</div>
-        </div>
-      </section>
+
+      <ExploreLearn></ExploreLearn>
+
       <section className="educators-container">
         <div className="educators-title center-text">
           <p className="l-text bold-text">Our Educators</p>
@@ -172,36 +156,6 @@ const educators = [
     dept: "PhD. Criminology, University of the Cordilleras",
   },
 ];
-
-const carouselItems = [
-  {
-    title: "Criminalistics",
-    body: "Personal Identification, Police Photography, Forensic Ballistics, Legal Medicine, Questioned Document Examination, Lie Detection Techniques, Forensic Chemistry and Toxicology",
-  },
-  {
-    title: "Criminal Law and Jurisprudence",
-    body: "Revised Penal Code (Book 1), Revised Penal Code (Book 2), Human Rights Education, Special Penal Laws, Evidence, Criminal Procedure",
-  },
-  {
-    title: "Criminalistics",
-    body: "Personal Identification, Police Photography, Forensic Ballistics, Legal Medicine, Questioned Document Examination, Lie Detection Techniques, Forensic Chemistry and Toxicology",
-  },
-  {
-    title: "Criminal Law and Jurisprudence",
-    body: "Revised Penal Code (Book 1), Revised Penal Code (Book 2), Human Rights Education, Special Penal Laws, Evidence, Criminal Procedure",
-  },
-];
-
-function CarouselItem(props) {
-  const { title, body } = props;
-  return (
-    <div>
-      <p>{title}</p>
-      <p>{body}</p>
-      <button>Show More</button>
-    </div>
-  );
-}
 
 function Educator(props) {
   const { name, role, dept, idx } = props;
